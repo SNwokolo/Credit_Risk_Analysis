@@ -8,25 +8,23 @@ The purpose of this analysis is to implement machine learning techniques in solv
 
 To test our predictions using undersamplimg and oversampling methods, the following models were implemented:
 
-![Random Oversampling](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/random%20oversampling.png)
 - The random oversampling model - the balanced accuracy score obtained was 0.62. The precision for high risk was 0.01 while that of low risk was 1.00. The recall for high risk was 0.58 and the low risk score was 0.65. 
+![Random Oversampling](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/random%20oversampling.png)
 
-![SMOTE](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/SMOTE.png)
-- The SMOTE model - 0.62 was the balanced accuracy score obtained. The precision score for high risk applications was 0.01 and that of low risk was 1.00. The recall scores were 0.6 and 0.65 for high risk and low risk respectively
+- The SMOTE model - 0.62 was the balanced accuracy score obtained. The precision score for high risk applications was 0.01 and that of low risk was 1.00. The recall scores were 0.6 and 0.65 for high risk and low risk respectively. ![SMOTE](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/SMOTE.png)
 
-![Cluster Centroids](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/Undersampling.png)
 - The cluster centroids undersampling model - the balanced accuracy score obtained was 0.51. The precision for high risk was 0.01 while that of low risk was 0.99. The recall for high risk was 0.59 and the low risk recall score was 0.42. 
-For the oversam
+![Cluster Centroids](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/Undersampling.png)
 
-![SMOTEENN](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/3278d7ea7c7bafcd28950e19bf6e7cb72c1a3dce/Images/SMOTEENN.png)
-- The SMOTEENN (combines over- and undersampling) - the balanced accuracy score obtained was 0.64. The precision for high risk was 0.01 while that of low risk was 1.00. The recall for high risk was 0.72 and the low risk recall score was 0.57. 
+
+- The SMOTEENN (combines over- and undersampling) - the balanced accuracy score obtained was 0.64. The precision for high risk was 0.01 while that of low risk was 1.00. The recall for high risk was 0.72 and the low risk recall score was 0.57. ![SMOTEENN](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/3278d7ea7c7bafcd28950e19bf6e7cb72c1a3dce/Images/SMOTEENN.png)
+
 For ensemble learner algorithms, we used the following models:
 
-![Random Forest Classifier](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/RFC.png)
 - Random Forest Classifier - the balanced accuracy score obtained was 0.66. The precision for high risk was 0.59 while that of low risk was 1.00. The recall for high risk was 0.32 and the low risk recall score was 1.00. 
+![Random Forest Classifier](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/RFC.png)
 
-![Easy Ensemble](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/Easy%20Ensemble.png)
-- Easy Ensemble model - the balanced accuracy score obtained was 0.93. The precision for high risk was 0.07 while that of low risk was 1.00. The recall for high risk was 0.92 and the low risk recall score was 0.93. 
+- Easy Ensemble model - the balanced accuracy score obtained was 0.93. The precision for high risk was 0.07 while that of low risk was 1.00. The recall for high risk was 0.92 and the low risk recall score was 0.93. ![Easy Ensemble](https://github.com/SNwokolo/Credit_Risk_Analysis/blob/bbf6d28bab9526aa7398e2b6f036dba7a9056d44/Images/Easy%20Ensemble.png)
 
 
 ## Summary
